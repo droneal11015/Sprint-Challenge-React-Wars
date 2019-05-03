@@ -2,7 +2,7 @@ import React from 'react';
 import './StarWars.css';
 
 
-const Characters = props => {
+const Chars = props => {
     return (
         <div className="characterContainer">
             {props.data.map(character => {
@@ -22,4 +22,4 @@ const Characters = props => {
     )
 }
 
-export default characters;
+export default Chars;

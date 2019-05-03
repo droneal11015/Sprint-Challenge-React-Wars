@@ -1,0 +1,21 @@
+h1 {
+    color: black;
+    text-shadow: 1px 1px 3px lightgray;
+}
+
+.characterCard {
+    width: 320px;
+    height: auto;
+    border: 1px solid black;
+    margin: 25px;
+    background: lightgray;
+}
+
+.characterContainer {
+    font-weight: 900;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
