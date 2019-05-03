@@ -6,9 +6,9 @@ h1 {
 .characterCard {
     width: 320px;
     height: auto;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 25px;
-    background: lightgray;
+    background: darkgray;
 }
 
 .characterContainer {
@@ -18,4 +18,9 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.characterName {
+    text-shadow: 1px 1px 3px white;
+    text-decoration: underline;
 }

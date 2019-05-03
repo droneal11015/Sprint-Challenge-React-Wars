@@ -8,7 +8,7 @@ const Chars = props => {
             {props.data.map(character => {
                 return (
                     <div className='characterCard'>
-                    <h1>{character.name}</h1>
+                    <h2 className="characterName">{character.name}</h2>
                     <p>Gender: {character.gender}</p>
                     <p>Birth Year: {character.birth_year}</p>
                     <p>Height: {character.height}</p>
